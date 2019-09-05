@@ -2132,6 +2132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 748766608}
   - component: {fileID: 748766607}
+  - component: {fileID: 748766609}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2189,6 +2190,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 79.37601, y: -117.89001, z: 7.0660005}
+--- !u!95 &748766609
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748766606}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5838666ec1f5b204e9584411ccc55800, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!43 &778031045
 Mesh:
   m_ObjectHideFlags: 0
@@ -7200,7 +7219,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 899459056}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 317.9, y: 16.87, z: 257.96}
+  m_LocalPosition: {x: 317.88, y: 19.13, z: 260.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20017,7 +20036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChaseRange: 25
-  StopRange: 10
+  StopRange: 5
   target: {fileID: 9220980}
 --- !u!195 &1757784461
 NavMeshAgent:
